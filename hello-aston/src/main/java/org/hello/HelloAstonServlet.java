@@ -12,12 +12,7 @@ public class HelloAstonServlet extends HttpServlet {
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         resp.setContentType("text/html;charset=utf-8");
 
-        String path = req.getRequestURI();
-        if ("/hello".equals(path)) {
-            PrintWriter pw = resp.getWriter();
-            pw.println("<H1>Hello, Aston!</H1>");
-        } else {
-            resp.setStatus(HttpServletResponse.SC_NOT_FOUND);
-        }
+        PrintWriter pw = resp.getWriter();
+        pw.println("<h1>Hello, Aston!</h1>");
     }
 }
