@@ -13,6 +13,6 @@ public class HelloAstonServlet extends HttpServlet {
         resp.setContentType("text/html;charset=utf-8");
 
         PrintWriter pw = resp.getWriter();
-        pw.println("<h1>Hello, Aston! KooKoo</h1>");
+        pw.println("<h1>Hello, Aston! KooSKoo</h1>");
     }
 }
