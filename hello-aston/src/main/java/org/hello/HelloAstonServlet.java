@@ -14,5 +14,6 @@ public class HelloAstonServlet extends HttpServlet {
 
         PrintWriter pw = resp.getWriter();
         pw.println("<h1>Hello, Aston! KooSKoo</h1>");
+        System.out.println("GDE YA");
     }
 }
